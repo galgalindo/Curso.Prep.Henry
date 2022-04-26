@@ -1,5 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { CleanOptions } = require("simple-git");
+
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = 'Daniel';
 
@@ -53,7 +55,7 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x / y
+return x / y
 }
 
 function sonIguales(x, y) {
@@ -153,13 +155,14 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  
+
 }
 
 function obtenerSaludo(nombre) {
